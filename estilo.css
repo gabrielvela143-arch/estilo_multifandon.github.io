@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+
+  /* Fondo degradado rosa a morado */
+  background: linear-gradient(135deg, #ffb6c1, #8a2be2);
+  color: #f59191;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: rgba(255, 182, 193, 0.85); /* rojo con algo de transparencia */
+  padding: 40px 30px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 30px; /* bordes más redondeados */
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* sombra sutil para dar profundidad */
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color:#ff69b4;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 15px; /* botones más redondeados */
+  border: 1px solid #f8f3f3;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #999;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #ffffff;
+}

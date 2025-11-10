@@ -1,0 +1,96 @@
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* CUERPO */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f8f4ef;
+  color: #3a2c1e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ENCABEZADO */
+header {
+  background-color: #dbc2a4;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+/* CARRITO */
+#cart {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* CATÁLOGO */
+.catalog {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.02);
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.item button {
+  background-color: #a87b5a;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 10px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* PIE DE PÁGINA */
+footer {
+  margin-top: auto;
+  background-color: #dbc2a4;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+#buy-button {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  background-color: #3a2c1e;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 90%;
+  max-width: 400px;
+}

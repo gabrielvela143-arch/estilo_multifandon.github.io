@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo de Accesorios</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>Catálogo de Accesorios</h1>
+    <div id="cart">🛒 Carrito (<span id="cart-count">0</span>)</div>
+  </header>
+
+  <section class="catalog">
+    <div class="item">
+      <img src="../imagenes/9.jpg" alt="Clip de estrellita" />
+      <h2>Manhwas ediciones limitadas</h2>
+      <p>Personalizable - <strong>Bs. 100-150</strong></p>
+      <button onclick="addToCart('Clip de Estrellita', 10)">Añadir al carrito</button>
+    </div>
+
+    <div class="item">
+      <img src="../imagenes/10.jpg" alt="Pieza suelta" />
+      <h2>Pieza Suelta</h2>
+      <p>1 pieza Bs. 100 / 5 piezas Bs. 450</p>
+      <button onclick="addToCart('Pieza Suelta', 3.5)">Añadir al carrito</button>
+    </div>
+
+    <div class="item">
+      <img src="../imagenes/11.jpg" alt="Brazaletes" />
+      <h2>accesorios personalizados</h2>
+      <p>Personalizable <strong>Bs. 50</strong></p>
+      <button onclick="addToCart('Brazaletes', 50)">Añadir al carrito</button>
+    </div>
+  </section>
+
+  <footer>
+    <button id="buy-button">Comprar por WhatsApp</button>
+  </footer>
+
+  <script src="java.js"></script>
+</body>
+</html>
